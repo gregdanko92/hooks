@@ -5,6 +5,7 @@ import Clock from './Clock'
 import ToDo from './ToDo'
 import Timer from './Timer'
 import ATM from './ATM'
+import Giphy from './Giphy'
 
 
 function Routes(){
@@ -16,6 +17,8 @@ function Routes(){
           <Route path='/todo' exact component={ToDo}/>
           <Route path='/timer' exact component={Timer}/>
           <Route path='/atm' exact component={ATM}/>
+          <Route path='/giphy' exact component={Giphy}/>
+          
           
       </Switch>
         
